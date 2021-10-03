@@ -18,10 +18,14 @@ main {
 
 .box {
   width: 300px;
-  margin-left: 30px;
+  margin-right: 30px;
   padding: 10px;
   position: relative;
   background-color: #eee;
+}
+
+.box:last-child {
+  margin: 0;
 }
 
 .img1 {
